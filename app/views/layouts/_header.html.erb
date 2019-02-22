@@ -1,0 +1,15 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <%= link_to "SoftwareAcademy", 'http://SoftwareAcademy.co.uk', id: "logo" %>
+      <nav>
+        <ul class="nav pull-right">
+          <%=link_to 'Students', controller: "students"%>
+          <%=link_to 'Teachers', controller: "teachers"%>
+          <%=link_to 'Courses', controller: "courses"%>
+          <%=link_to 'Sessions', controller: "sessions"%>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
